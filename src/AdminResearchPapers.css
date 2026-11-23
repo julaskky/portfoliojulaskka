@@ -1,0 +1,21 @@
+.admin-paper-icon {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  flex-shrink: 0;
+  border: 1px solid rgba(167, 139, 250, 0.25);
+  border-radius: 12px;
+  color: #c4b5fd;
+  background: linear-gradient(135deg, #30244b, #17352f);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 700px) {
+  .admin-paper-icon {
+    width: 45px;
+    height: 45px;
+  }
+}

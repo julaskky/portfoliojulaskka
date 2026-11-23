@@ -1,0 +1,4 @@
+/* Global base styles for Julius Olaniyan's portfolio */
+* { box-sizing: border-box; }
+:focus-visible { outline: 2px solid #b6a0ff; outline-offset: 4px; }
+::selection { background: #a58aff; color: #100e18; }
